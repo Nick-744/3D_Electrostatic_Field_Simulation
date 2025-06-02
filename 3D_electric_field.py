@@ -1,4 +1,5 @@
 import vpython as vp
+from time import sleep
 
 def cal_e_and_d(xyz_E, xyz_q, q_charge):
 	if q_charge > 0:
@@ -126,3 +127,4 @@ def main():
                 draw_electric_field3(xyz, q1, q2, q3)
                                 
 main()
+sleep(10)
